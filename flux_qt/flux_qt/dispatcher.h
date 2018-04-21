@@ -55,7 +55,7 @@ public:
         emit newActionAdded();
     }
 
-Q_SIGNALS:
+signals:
     void newActionAdded();
 
 private:
